@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MainApp());
+  debugPrint("Hello mao phac");
 }
 
 class MainApp extends StatelessWidget {
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Text('This is branch 1'),
         ),
       ),
     );
